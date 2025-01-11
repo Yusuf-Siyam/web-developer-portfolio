@@ -35,6 +35,9 @@ nav ul {
 .dark-2{
     color:#474747 ;
 }
+.bg-color{
+    color: #FFF8F3;
+}
 
 .btn-primary{
     background-color:#fc6f0b;
@@ -43,6 +46,16 @@ nav ul {
     color:white;
     border:none;
     border-radius:5px;
+}
+/* section tittle main()*/
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
 }
 /* Header */
 .header{
@@ -88,6 +101,22 @@ nav li a{
 .banner-profile-picture{
     width: 580px;
     
+}
+/* Main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content:space-around ;
+}
+.item-discription{
+    font-weight: bold;
+
 
 }
 
