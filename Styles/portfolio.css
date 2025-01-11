@@ -1,0 +1,97 @@
+/* Nav style */
+nav{
+    display: flex;
+    align-items: center;
+    /* align-items: center vartical center  */
+    justify-content:space-between;
+    margin: 0px 200px;
+}
+.nav-title{
+    font-weight:1000;
+    font-size:45px;
+}
+
+.text-primary{
+    color:#FD6E0A;
+}
+
+
+nav ul {
+    display: flex;
+    align-items:center;
+    /* sob ek borabor hobe (vartical)*/
+    
+}
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* color change */
+.dark-2{
+    color:#474747 ;
+}
+
+.btn-primary{
+    background-color:#fc6f0b;
+    font-weight: 700;
+    font-size:20px;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+/* Header */
+.header{
+    background-image: url('../images/developer.png'),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+
+background-position: top left,bottom right;
+
+    
+}
+/* display flex parents */
+
+/* unorder list er . cole jabe */
+nav ul li{
+    list-style: none;
+    margin-right:51px;
+   
+ }
+ 
+/* Nav er modde list er modde joto Ancor _____ ache */
+nav li a{ 
+    text-decoration:none;
+    font-size:20px;
+   
+}
+/* Banner style */
+.banner{
+    display:flex;
+    justify-content:space-between;
+    margin:0 35px 0 230px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-profile-picture{
+    width: 580px;
+    
+
+}
+
+
+
+
+
